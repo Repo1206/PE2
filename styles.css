@@ -1,0 +1,162 @@
+/* Global Styles */
+html {
+scroll-behavior: smooth;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Orbitron', sans-serif;
+    color: #F2B90F;
+}
+
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  background-image: url('https://cdn.discordapp.com/attachments/1059023767436795954/1093481404798615592/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #0D0D0D;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #BF2B0A;
+    border-radius: 10px;
+}
+
+
+
+.navbar {
+    background-color: #0D0D0D;
+    border-bottom: 1px solid #000;
+ position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+
+a {
+color: #F2A413;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Header */
+header {
+background-color: #0D0D0D;
+color: #fff;
+}
+
+header .navbar-brand {
+font-size: 2rem;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+header .nav-link {
+font-size: 1.2rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+
+color: #fff;
+
+}
+
+
+.jumbotron h1 {
+font-size: 4rem;
+font-weight: 700;
+text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+text-align: center;
+
+}
+
+.jumbotron p {
+font-size: 1.5rem;
+text-align: center;
+
+}
+
+/* Footer */
+footer {
+background-color: #0D0D0D;
+color: #F2A413;
+font-family: 'Orbitron', sans-serif;
+font-size: 0.8rem;
+position: relative;
+bottom: 0;
+width: 100%;
+padding: 30px 0;
+margin-top: auto;
+margin-bottom: 0;
+}
+
+.footer-links {
+list-style: none;
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+align-items: center;
+height: 100%;
+}
+
+.footer-links li {
+margin: 0 10px;
+}
+
+.footer-links li:first-child {
+margin-left: 0;
+}
+
+.footer-links li:last-child {
+margin-right: 0;
+}
+
+.footer-links a {
+color: #F2A413;
+padding: 10px;
+}
+
+.footer-links a:hover {
+color: #F2CD13;
+}
+
+.address {
+margin-bottom: 20px;
+}
+
+hr.bg-light {
+border-top: 1px solid #F2A413;
+}
+
+footer p {
+margin-bottom: 0;
+}
+
+#flipbook {
+            width: 800px;
+            height: 600px;
+        }
+    
+       
